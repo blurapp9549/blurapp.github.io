@@ -1,350 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- 
-    	Boxer Template
-    	http://www.templatemo.com/tm-446-boxer
-    	-->
     <meta charset="utf-8" />
-    <title>Blur App- Hide you sensitive data</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-
-    <!-- animate css -->
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- font-awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <!-- google font -->
-    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,800' rel='stylesheet' type='text/css'>-->
-
-    @import
-    url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <title>BLUR.IT</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <!-- start preloader -->
-    <div class="preloader">
-      <div class="sk-spinner sk-spinner-rotating-plane"></div>
-    </div>
-    <!-- end preloader -->
-    <!-- start navigation -->
-    <nav
-      class="navbar navbar-default navbar-fixed-top templatemo-nav"
-      role="navigation"
-    >
-      <div class="container">
-        <div class="navbar-header">
-          <button
-            class="navbar-toggle"
-            data-toggle="collapse"
-            data-target=".navbar-collapse"
-          >
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
-            <span class="icon icon-bar"></span>
-          </button>
-          <a href="#" class="navbar-brand">BLUR.IT</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right text-uppercase">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#feature">Features</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#download">Download</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+    <nav class="navbar has-shadow is-white">
+      <!--logo/brand-->
+      <div class="navbar-brand">
+        <a href="" class="navbar-item">
+          <img
+            src="assets//logo.png"
+            alt="site logo"
+            style="max-height: 70px"
+            class="py-2 px-2"
+          />
+        </a>
+        <a class="navbar-burger" id="burger">
+          <span></span><span></span><span></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu" id="nav-links">
+        <div class="navbar-end">
+          <a href="" class="navbar-item">Documentation</a>
+          <a href="" class="navbar-item">FAQ</a>
+          <a href="" class="navbar-item">Pricing</a>
+          <a href="" class="navbar-item">Purchase</a>
         </div>
       </div>
     </nav>
-    <!-- end navigation -->
-    <!-- start home -->
-    <section id="home">
-      <div class="overlay">
+
+    <div class="container">
+      <section class="section">
+        <h1 class="title has-text-black has-text-centered">
+          <strong>Hide Sensitive information while screen sharing.</strong>
+        </h1>
+        <h2 class="subtitle has-text-centered mt-4">
+          Secure your sensitive information while recording video live or screen
+          sharing in just a few clicks, saving hours of post video-editing time.
+        </h2>
+      </section>
+
+      <div class="has-text-centered are-medium">
+        <button class="button is-warning">
+          <span class="icon">
+            <i class="fa fa-shopping-cart"></i>
+          </span>
+          <span>Buy Me</span>
+        </button>
+        <button class="button">
+          <span class="icon">
+            <i class="fas fa-arrow-down"></i>
+          </span>
+          <span>Learn More</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="container p-6 mt-6 ">
+      <figure class="image is-16by9">
+        <iframe
+          class="has-ratio"
+          width="640"
+          height="360"
+          src="https://www.youtube.com/embed/C_fHndCzvMM"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </figure>
+    </div>
+
+    <div class="container">
+      <section class="section">
+        <h1 class="title has-text-black has-text-centered">
+          <strong>How Blur.it works</strong>
+        </h1>
+      </section>
+
+      <div class="columns p-6 mt-6 ">
+        <div class="column">
+          <p class="is-size-2">Heading 1</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            molestiae quo in iure sequi. Harum nisi ducimus error fugiat
+            corporis illo, perferendis officia tempora ea consequatur,
+            dignissimos maiores minima distinctio!
+          </p>
+        </div>
+        <div class="column">
+          <figure class="image is-2by1">
+            <img src="https://bulma.io/images/placeholders/640x320.png" />
+          </figure>
+        </div>
+      </div>
+
+      <div class="columns mt-6 p-6">
+        <div class="columns">
+          <div class="column">
+            <figure class="image is-2by1">
+              <img src="https://bulma.io/images/placeholders/640x320.png" />
+            </figure>
+          </div>
+          <div class="column">
+            <p class="is-size-2">Heading 2</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              molestiae quo in iure sequi. Harum nisi ducimus error fugiat
+              corporis illo, perferendis officia tempora ea consequatur,
+              dignissimos maiores minima distinctio!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="columns mt-6 p-6">
+        <div class="columns">
+          <div class="column">
+            <p class="is-size-2">Heading 3</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              molestiae quo in iure sequi. Harum nisi ducimus error fugiat
+              corporis illo, perferendis officia tempora ea consequatur,
+              dignissimos maiores minima distinctio!
+            </p>
+          </div>
+          <div class="column">
+            <figure class="image is-2by1">
+              <img src="https://bulma.io/images/placeholders/640x320.png" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+     <div class="spacer"></div>
+   
+
+
+    <section class="section" id="pricing-section">
+      <div class="container">
+        <h1 class="title is-1 has-text-centered has-text-weight-bold">
+          Pricing
+        </h1>
+        <div class="spacer"></div>
+        <div class="columns">
+          <div class="column is-one-third has-text-centered has-background-white">
+            <h2 class="title is-3 plan_title has-text-weight-bold">Basic Plan</h2>
+            <p class="has-text-weight-light plan_subtitle">This is the basic plan</p>
+            <div class="price">
+              <h2 class="title is-2 has-text-weight-bold">$40<span class="has-text-weight-light">/month</span></h2>
+            </div>
+            <div class="spacer"></div>
+            <div class="features">
+              <p>One Browser</p>
+              <p>Feature Two</p>
+              <p>Feature Three</p>
+              <p class="unavailable">Feature Four</p>
+              <p class="unavailable">Feature Five</p>
+              <p class="unavailable">Feature Six</p>
+              <p class="unavailable">Feature Seven</p>
+              <p class="unavailable">Feature Eight</p>
+              <p class="unavailable">Feature Nine</p>
+              <p class="unavailable">Feature Ten</p>
+            </div>
+            <div class="spacer"></div>
+            <button class="button is-primary">Get Started Now</button>
+          </div>
+          <div class="column is-one-third has-text-centered best_selling">
+            <h2 class="title is-3 plan_title has-text-white has-text-weight-bold">Best Selling</h2>
+            <p class="has-text-weight-light plan_subtitle">This is the best selling plan</p>
+            <div class="price">
+              <h2 class="title is-2 has-text-weight-bold">$400<span class="has-text-weight-light">/year</span></h2>
+            </div>
+            <div class="spacer"></div>
+            <div class="features has-text-white">
+              <p>Feature One</p>
+              <p>Feature Two</p>
+              <p>Feature Three</p>
+              <p>Feature Four</p>
+              <p>Feature Five</p>
+              <p>Feature Six</p>
+              <p class="unavailable">Feature Seven</p>
+              <p class="unavailable">Feature Eight</p>
+              <p class="unavailable">Feature Nine</p>
+              <p class="unavailable">Feature Ten</p>
+            </div>
+            <div class="spacer"></div>
+            <button class="button is-primary best_selling_btn">Get Started Now</button>
+          </div>
+          <div class="column is-one-third has-text-centered has-background-white">
+            <h2 class="title is-3 plan_title has-text-weight-bold">Deluxe Plan</h2>
+            <p class="has-text-weight-light plan_subtitle">This is a quarterly plan</p>
+            <div class="price">
+              <h2 class="title is-2 has-text-weight-bold">$900<span class="has-text-weight-light">/quarterly</span></h2>
+            </div>
+            <div class="spacer"></div>
+            <div class="features">
+              <p>Feature One</p>
+              <p>Feature Two</p>
+              <p>Feature Three</p>
+              <p>Feature Four</p>
+              <p>Feature Five</p>
+              <p>Feature Six</p>
+              <p>Feature Seven</p>
+              <p>Feature Eight</p>
+              <p>Feature Nine</p>
+              <p>Feature Ten</p>
+            </div>
+            <div class="spacer"></div>
+            <button class="button is-primary">Get Started Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="client" class="hero is-medium">
+      <div class="hero-body">
         <div class="container">
-          <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10 wow fadeIn" data-wow-delay="0.3s">
-              <h1 class="text-capitalize">
-               BLUR.IT  An Extension for hiding sensitive data.
-              </h1>
-              <p class="tm-white">
-                Blur.it is a Extension for hiding your sensitive data with a
-                single click , A handy tool for content creators and remote
-                workers to hide your data without much hassle
-              </p>
-              
-			  <div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C_fHndCzvMM" allowfullscreen></iframe>
-			  </div>
-  
+          <div class="is-divider"></div>
 
-            </div>
-            <div class="col-md-1"></div>
+          <div class="has-text-centered m-4">
+            <p class="is-size-4 has-text-weight-semibold">
+             Works on all major browsers
+            </p>
+          </div>
+          <div class="is-divider"></div>
+          <div class="tabs is-centered">
+            <ul>
+              <li class="mr-4">
+                <img
+                  class="partner-logo"
+                  src="/assets/chrome.png"
+                  alt="chrome"
+                />
+              </li>
+
+              <li class="mr-4">
+                <img class="partner-logo" src="/assets/edge.png" alt="edge" />
+              </li>
+
+              <li>
+                <img
+                  class="partner-logo"
+                  src="/assets/firefox.png"
+                  alt="firefox"
+                />
+              </li>
+            </ul>
           </div>
         </div>
+       
       </div>
     </section>
-    <!-- end home -->
+    <div class="spacer"></div>
 
-
-
-    <!-- start feature -->
-    <section id="feature">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-            <h2 class="text-uppercase">   Hide Text</h2>
-            <p>
-          
-            </p>
-            <p>
-              <span><i class="fa fa-mobile"></i></span>Hide text between large paragraphs
-            </p>
-            <p>
-              <i class="fa fa-code"></i>Hiding the whole paragraphs or the whole sentences 
-            </p>
-          </div>
-          <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-            <img
-              src="images/software-img.png"
-              class="img-responsive"
-              alt="feature img"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end feature -->
-
-    <!-- start feature1 -->
-    <section id="feature1">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-            <img
-              src="images/software-img.png"
-              class="img-responsive"
-              alt="feature img"
-            />
-          </div>
-          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-            <h2 class="text-uppercase">Scramble the whole text</h2>
-            <p>
-             
-            </p>
-            <p>
-              <span><i class="fa fa-mobile"></i></span> Scramble the whole text which will make it hard to read.
-            </p>
-            <p>
-              <i class="fa fa-code"></i> Scramble selected text of a paragraph 
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-	<section id="feature">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-			  <h2 class="text-uppercase">Blur all images</h2>
-			  <p>
-			
-			  </p>
-			  <p>
-				<span><i class="fa fa-mobile"></i></span>Blur all images in a page
-			  </p>
-			  <p>
-				<i class="fa fa-code"></i>Quis autem velis reprehenderit et quis
-				voluptate velit esse quam.
-			  </p>
-			</div>
-			<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-			  <img
-				src="images/software-img.png"
-				class="img-responsive"
-				alt="feature img"
-			  />
-			</div>
-		  </div>
-		</div>
-	  </section>
-    <!-- end feature1 -->
-
-    <!-- start pricing -->
-    <section id="pricing">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 wow bounceIn">
-            <h2 class="text-uppercase">Our Pricing</h2>
-          </div>
-          <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-            <div class="pricing text-uppercase">
-              <div class="pricing-title">
-                <h4>Basic Plan</h4>
-                <p>$11</p>
-                <small class="text-lowercase">monthly</small>
-              </div>
-              <ul>
-                <li>6 GB Space</li>
-                <li>600 GB Bandwidth</li>
-                <li>60 More Themes</li>
-                <li>Lifetime Support</li>
-              </ul>
-              <button class="btn btn-primary text-uppercase">Sign up</button>
-            </div>
-          </div>
-          <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-            <div class="pricing active text-uppercase">
-              <div class="pricing-title">
-                <h4>Business Plan</h4>
-                <p>$22</p>
-                <small class="text-lowercase">monthly</small>
-              </div>
-              <ul>
-                <li>15 GB space</li>
-                <li>1,500 GB Bandwidth</li>
-                <li>150 More Themes</li>
-                <li>Lifetime Support</li>
-              </ul>
-              <button class="btn btn-primary text-uppercase">Sign up</button>
-            </div>
-          </div>
-          <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
-            <div class="pricing text-uppercase">
-              <div class="pricing-title">
-                <h4>Pro Plan</h4>
-                <p>$33</p>
-                <small class="text-lowercase">monthly</small>
-              </div>
-              <ul>
-                <li>35 GB space</li>
-                <li>3,500 GB bandwidth</li>
-                <li>350 more themes</li>
-                <li>Lifetime Support</li>
-              </ul>
-              <button class="btn btn-primary text-uppercase">Sign Up</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end pricing -->
-
-    <!-- start download -->
-    <section id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-            <h2 class="text-uppercase">Download Our Software</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
-            </p>
-            <button class="btn btn-primary text-uppercase">
-              <i class="fa fa-download"></i> Download
-            </button>
-          </div>
-          <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
-            <img
-              src="images/software-img.png"
-              class="img-responsive"
-              alt="feature img"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end download -->
-
-    <!-- start contact -->
-    <section id="contact">
-      <div class="overlay">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-              <h2 class="text-uppercase">Contact Us</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation.
-              </p>
-              <address>
-                <p>
-                  <i class="fa fa-map-marker"></i>36 Street Name, City Name,
-                  United States
-                </p>
-                <p><i class="fa fa-phone"></i> 010-010-0110 or 020-020-0220</p>
-                <p><i class="fa fa-envelope-o"></i> info@company.com</p>
-              </address>
-            </div>
-            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-              <div class="contact-form">
-                <form action="#" method="post">
-                  <div class="col-md-6">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Name"
-                    />
-                  </div>
-                  <div class="col-md-6">
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div class="col-md-12">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Subject"
-                    />
-                  </div>
-                  <div class="col-md-12">
-                    <textarea
-                      class="form-control"
-                      placeholder="Message"
-                      rows="4"
-                    ></textarea>
-                  </div>
-                  <div class="col-md-8">
-                    <input
-                      type="submit"
-                      class="form-control text-uppercase"
-                      value="Send"
-                    />
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end contact -->
-
-    <!-- start footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <p>Copyright © 2084 Your Company Name</p>
-        </div>
+    <footer class="footer" id="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Blur.it</strong> by <a href="https://jgthms.com">Pran Dev</a>
+        </p>
       </div>
     </footer>
-    <!-- end footer -->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
-    <script src="js/custom.js"></script>
+   
+
+    <script src="index.js"></script>
   </body>
 </html>
