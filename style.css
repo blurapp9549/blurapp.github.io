@@ -45,3 +45,21 @@ hr.solid {
 .best_selling_btn{
     background: #f77f00 !important;
 }
+
+.features p {
+    text-align: left;
+    line-height:25px;
+}
+
+.footer.footer-dark {
+
+background: #444f60;
+color: #fff;
+
+
+}
+
+
+.footer a {
+    color:#fff;
+}
